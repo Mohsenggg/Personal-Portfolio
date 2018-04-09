@@ -1,0 +1,113 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+img, embed, object, video {
+  max-width: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+
+header, main, aside, footer {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  border-bottom: 3px solid rgb(98, 121, 144);
+  box-shadow: 0 2px 5px rgb(98, 121, 144);
+}
+
+.h1__title {
+  /* font-size: 30px; */
+  font-style: italic;
+  font-family: cursive, serif, sans-serif;
+  font-weight: lighter;
+}
+
+.h5__title{
+  /* font-size: 10px; */
+  font-style: italic;
+  font-family: cursive, serif, sans-serif;
+}
+
+.header__logo {
+  height: 90px;
+  margin: 3em 1em 2em 3em;
+}
+
+.header__title {
+  float: right;
+  margin: 2em 2em 1em 1em;
+  display: inline-block;
+  color: rgb(48, 59, 68);
+}
+
+main {
+  width: 100%;
+  box-shadow: 0 2px 5px rgb(98, 121, 144);
+  /* margin-right: ; */
+  /* float: right; */
+  /* margin-left: auto; */
+}
+
+.section__img {
+  width: 100%;
+  padding: 1em 0 1em 0;
+}
+
+.img__lamp {
+width: 100%;
+height: 500px;
+}
+
+.about__me {
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+  border: 3px solid rgb(110, 139, 156);
+  background-color: rgb(146, 179, 194);
+  position: relative;
+}
+
+.img__me {
+  padding: 1em;
+  width: 120px;
+  height: 160px;
+  border-radius: 50%;
+  float: left;
+}
+
+.work__title {
+  background-color: rgb(146, 179, 194);
+}
+
+.projects {
+border: 1px solid rgb(146, 179, 194);
+background-color: rgb(241, 247, 249);
+display: flex;
+flex-wrap: wrap;
+}
+
+.img__project {
+  height: 300px;
+  /* width: 25%; */
+}
+
+footer {
+  padding: 1em;
+}
+
+.botton__conect {
+  border-style: dotted;
+  border-radius: 25%;
+  background-color: rgb(110, 139, 156);
+  padding: 1.5em;
+}

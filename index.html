@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MG Portfolio</title>
+	<link href="css/styles.css" rel="Stylesheet">
+  <style>
+	/* suitable for Apple iPad */
+	/* suitable for Google Nexus5  */
+	/* suitable for Desktop */
+	@media screen and (max-width: 500px) {
+		.header__title {
+			font-size: 10px;
+			padding: 2.5em 0 2em 1em;
+		}
+	}
+	@media screen and (max-width: 750px) {
+	  .header__logo {
+	    margin: 2em 0 3em 1em;
+			height: 60px;
+	  }
+		.header__title {
+			margin: 0 0 3em 0;
+			width: 60%;
+		}
+	    .img__lamp {
+	      height: 300px;
+	  }
+	}
+		@media screen and (min-width: 1000px){
+			body {
+				width: 900px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+</style>
+
+</head>
+<body>
+
+<header class="header">
+	<div class="header__inner">
+	  	<img class="header__logo" src="img/Logo.jpg" alt="Udacitiy logo">
+			<div class="header__title">
+			  <h1 class="h1__title"> MOHSEN GAMAL </h1>
+				<h5 class="h5__title">FRONT-END NINJA</h5>
+			</div>
+		</div>
+</header>
+
+<main>
+<section class="Content">
+	<section class="section__img">
+		<img class="img__lamp" src="img/main.jpg" alt="image">
+	</section>
+
+	<section class="about__me">
+		<img class="img__me" src="img/me.jpg" alt="Mohsen">
+		<h3>About Me: </h3>
+		<article class="description">
+			<p> discription.......... </p>
+		</article>
+	</section>
+
+	 <section class="Featured__work">
+		 <h2 class="work__title">Featured Work</h2>
+		 <div class="projects">
+			<figure class="project1">
+			<a href="file:///D:/web%20deve/sites/fend-animal-trading-cards-master/fend-animal-trading-cards-master/index.html.html">
+			<img id="img__project__horse" class="img__project" src="img/horse.jpg" alt="project1">
+			</a>
+			<figcaption>Animal Trading Card</figcaption>
+			</figure>
+	   	<figure class="project2">
+				<a href="#">
+				<img id="img__project__two" class="img__project" src="img/coming.jpg" alt="project1">
+				</a>
+				<figcaption>Coming soon</figcaption>
+			</figure>
+			<figure class="project3">
+				<a href="#">
+				<img id="img__project__three" class="img__project" src="img/coming.jpg" alt="project2">
+				</a>
+				<figcaption>Coming soon</figcaption>
+			</figure>
+		</div>
+		</section>
+	</section>
+	<footer>
+<button type="button" name="button" class="botton__conect">Conect Me</button>
+	</footer>
+</main>
+<!-- ref
+https://www.freepik.com/free-photos-vectors/coming-soon -->
+</body>
+</html>
